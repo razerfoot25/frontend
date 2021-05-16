@@ -19,7 +19,7 @@
   --font-primary-bold: 700;
   
   /* font size */
-  --font-header: max(2.2rem, min(4.3vw,3.5rem));
+  --font-header: max(2rem, min(4.3vw,6rem));
   --font-sub-header:  max(2rem, min(2.5vw,3rem));
   --font-subtext: max(1.8rem, min(1.8vw,2.5rem));
   --font-ptext: max(1.05rem, min(1.4vw,2rem));
@@ -292,7 +292,7 @@ html {
 }
 
 .section-main-text {
-  padding: 2em 0.5em;
+  padding: 2em 0em;
 }
 
 .section-header {
@@ -466,6 +466,9 @@ outline: none;
 
 @media (max-width: 1020px) {
 
+  body {
+    overflow-x: hidden;
+  }
 
   .section1 {
     background-image: url('./images/bg-pattern-intro.svg') ,  linear-gradient(to bottom ,var(--gradient-vlred)  , var(--gradient-lred) 60%);
@@ -596,15 +599,16 @@ outline: none;
   }
   .content-image-mobile {
     display: block;
-    max-width: 100%;
-    width: 100%;
-    margin: 0 calc(-50vw + 50%);
+    max-width: 110vw;
+    width: 110vw;
+    margin: 0 calc(-55vw + 50%);
   }
 
   .content-image-mobile--2 {
     display: block;
-    width: 100%;
-    margin: 0 calc(-50vw + 50%);
+    max-width: 120vw;
+    width: 120vw;
+    margin: 0 calc(-40vw + 50%);
   }
 
   .section3 {
