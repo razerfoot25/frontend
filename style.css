@@ -603,9 +603,9 @@ outline: none;
 
   .content-image-mobile--2 {
     display: block;
-    max-width: 130vw;
-    width: 130vw;
-    margin: 0 calc(-50vw + 65%);
+    max-width: 100%;
+    width: 100%;
+    margin: 0 calc(-50vw + 50%);
   }
 
   .section3 {
