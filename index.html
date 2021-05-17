@@ -10,63 +10,55 @@
 </head>
 <body>
   <main class="section1">
-    <nav class="nav-container container">
-      <input type="checkbox" class="hidden_checkbox" id="hamburger" />
-          <div>
-              <h1 class="logo">Blogr</h1>
-              <label for="hamburger"></label>
-          </div>
-      <div class="nav-subcontainer">
-          <ul>
-              <li>
-                  <label>
-                  <input type="checkbox" class="hidden_checkbox" />
-                  <h4 class="nav-header nav-header-text">Product</h4>
-                  <div class="nav-submenu-container">
-                      <ul>
-                      <li>Overview</li>
-                      <li>Pricing</li>
-                      <li>Marketplace</li>
-                      <li>Features</li>
-                      <li>Integrations</li>
-                      </ul>
-                  </div>
-                  </label>
-              </li>
-              <li>
-                  <label>
-                  <input type="checkbox" class="hidden_checkbox" />
-                  <h4 class="nav-header nav-header-text">Company</h4>
-                  <div class="nav-submenu-container">
-                      <ul>
-                      <li>About</li>
-                      <li>Team</li>
-                      <li>Blog</li>
-                      <li>Careers</li>
-                      </ul>
-                  </div>
-                  </label>
-              </li>
-              <li>
-                  <label>
-                  <input type="checkbox" class="hidden_checkbox" />
-                  <h4 class="nav-header nav-header-text">Connect</h4>
-                  <div class="nav-submenu-container">
-                      <ul>
-                          <li>Contact</li>
-                          <li>Newsletter</li>
-                          <li>LinkedIn</li>
-                      </ul>
-                  </div>
-                  </label>
-              </li>
-
-              
-              <li class="login border-t"><h4 class="nav-header-text">Login</h4></li>
-              <li><button class="btn btn-red btn-white">Sign Up</button></li>
-          </ul>
-      </div>
-  </nav>
+    <nav class="container nav-container">
+                <input type="checkbox" id="hamburger" />
+                <div>
+                    <h1 class="logo">Blogr</h1>
+                    <label for="hamburger"></label>
+                </div>
+                <ul class="nav-header-container">
+                    <li class="nav-header">
+                        <input type="checkbox" id="checkbox1" />
+                        <label class="nav-arrow" for="checkbox1">Product</label>
+                        <div>
+                            <ul class="nav-header-submenu">
+                                <li>Overview</li>
+                                <li>Pricing</li>
+                                <li>Marketplace</li>
+                                <li>Features</li>
+                                <li>Integrations</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-header">
+                        <input type="checkbox" id="checkbox2" />
+                        <label class="nav-arrow" for="checkbox2">Company</label>
+                        <div>
+                            <ul class="nav-header-submenu">
+                                <li>About</li>
+                                <li>Team</li>
+                                <li>Blog</li>
+                                <li>Careers</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-header">
+                        <input type="checkbox" id="checkbox3" />
+                        <label class="nav-arrow" for="checkbox3">Connect</label>
+                        <div>
+                            <ul class="nav-header-submenu">
+                                <li>Contact</li>
+                                <li>Newsletter</li>
+                                <li>LinkedIn</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="login nav-header">
+                        <span>Login</span>
+                    </li>
+                    <li class="sign-up"><h3 class="btn btn-white btn-red">Sign Up</h3></li>
+                </ul>
+            </nav>
     <section class="container section1--header">
 
     <div class="section-main-text">
